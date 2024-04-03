@@ -59,12 +59,33 @@
   letter-spacing: 1.2px;
 }
 
+.buttonLoadMore {
+   height: 45px;
+   width: 120px;
+   border-radius: 8px;
+   background-color: #4E75FF;
+   border: 1px #4E75FF solid;
+   color: white;
+   font-size: 14px;
+   letter-spacing: 1.2px;
+   margin: auto;
+   margin-top: 8px;
+ }
+
 .buttonForInput:hover {
+  background-color: #6C8CFF;
+  border: 1px #6C8CFF solid;
+}
+.buttonLoadMore:hover {
   background-color: #6C8CFF;
   border: 1px #6C8CFF solid;
 }
 
 .buttonForInput:active {
+  background-color: yellow;
+  color: blue;
+}
+.buttonLoadMore:active {
   background-color: yellow;
   color: blue;
 }

@@ -135,6 +135,8 @@ let currentPage = 1;
 let currentQuery = '';
 let totalHits = 0;
 
+buttonLoadMore.style.display = 'none';
+
 form.addEventListener('submit', fetchImages)
 buttonLoadMore.addEventListener('click', moreImages)
 
@@ -150,7 +152,7 @@ async function fetchImages(event) {
     return
   }
   areaForLoader.style.display = 'block';
-  buttonLoadMore.style.display = 'none';
+  // buttonLoadMore.style.display = 'none';
   currentPage = 1;
   currentQuery = query;
 
